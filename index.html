@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="js/app.js"></script>
     <meta charset="utf-8">
     <title>Git Workshop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,13 +9,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <script src="js/app.js"></script>
     <header>
         <h1>Git Workshop</h1>
     </header>
-    <h4>Please enter your name:</h4>
-    <input type="text" id="Name"/>
-    <input type="submit" id="NameSubmit" onClick="nameCheck()"/>
-
+    <section>
+        <label for="year"><h4>1. Please enter your name: </h4></label>
+        <input type="text" id="Name"><br>
+        <button onclick="nameCheck()">Submit</button>
+        <br>
+        <p id="welcome_msg"></p>
+    </section>
 </body>
 </html>
