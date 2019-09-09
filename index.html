@@ -7,25 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebar_style.css">
 </head>
 <body>
-    <header>
-        <h1 class="rainbow-text">* Git Workshop *</h1>
-    </header>
-    <section>
-        <label for="year"><h4>1. Please enter your name: </h4></label>
-        <input type="text" id="Name"><br>
-        <button onclick="nameCheck()">Submit</button>
+    <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="main">
+        <header>
+                <h1 class="rainbow-text">* Git Workshop *</h1>
+        </header>
+    
+        <section>
+            <label for="year"><h4>1. Please enter your name: </h4></label>
+            <input type="text" id="Name"><br>
+            <button onclick="nameCheck()">Submit</button>
+            <br>
+            <p id="welcome_msg"></p>
+        </section>
         <br>
-        <p id="welcome_msg"></p>
-    </section>
-    <br>
-    <section>
-        <label for="year"><h4>2. Please enter a Year: </h4></label>
-        <input type="text" id="year"><br>
-        <button onclick="checkLeapYear()">Check Leap Year</button>
-        <br>
-        <p id="result"></p>
-    </section>   
+        <section>
+            <label for="year"><h4>2. Please enter a Year: </h4></label>
+            <input type="text" id="year"><br>
+            <button onclick="checkLeapYear()">Check Leap Year</button>
+            <br>
+            <p id="result"></p>
+        </section>   
+    </div>
 </body>
 </html>
