@@ -23,6 +23,7 @@
                 <ol>
                     <li>Push your local project to GitHub</li>
                     <li>README.md</li>
+                    <li>Push changes to GitHub</li>
                     <li>Clone existing project</li>
                     <li>Create your training portfolio</li>
                 </ol>
