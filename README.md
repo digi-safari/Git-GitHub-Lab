@@ -1,9 +1,11 @@
 
 
-<img align="right" src="markdown_imgs/logo192.png" width = 100>
-<h1>Git and GitHub Workshop</h1>
+<img align="left" src="markdown_imgs/logo.png" height = 60></img>
+<br>
+
 <br>
 <div>
+    <h1>Git and GitHub Workshop</h1>
     <h3>Workshop outline:</h3>
     <ul>
         <li>Git Workshop
