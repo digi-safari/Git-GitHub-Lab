@@ -1,8 +1,8 @@
 
 
 <img align="right" src="markdown_imgs/logo192.png" width = 100>
-<h1>Git and GitHub Workshop Reference Materials</h1>
-
+<h1>Git and GitHub Workshop</h1>
+<br>
 <div>
     <h3>Workshop outline:</h3>
     <ul>
